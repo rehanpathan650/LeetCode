@@ -61,7 +61,7 @@ return <div className='flex justify-between m-2 px-7 items-center border-b-1 pb-
          navigate('/interview')
       }}>Interview</button>
       
-      <button onClick={()=> {
+      <button className='text-orange-500' onClick={()=> {
          navigate('/store')
       }}>Store</button>
       
